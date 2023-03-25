@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fasm.NET" Version="1.70.3.2" />
+    <PackageReference Include="GON.HexadecimalStringExtensions" Version="1.2.1" />
+    <PackageReference Include="Process.NET" Version="1.0.8" />
+  </ItemGroup>
+
+</Project>
